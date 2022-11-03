@@ -28,13 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnEjercicio3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnEjercicio3
+            // 
+            this.btnEjercicio3.Location = new System.Drawing.Point(35, 29);
+            this.btnEjercicio3.Name = "btnEjercicio3";
+            this.btnEjercicio3.Size = new System.Drawing.Size(520, 126);
+            this.btnEjercicio3.TabIndex = 0;
+            this.btnEjercicio3.Text = "Ejercicio 3: Crear 2 objetos de cada clase";
+            this.btnEjercicio3.UseVisualStyleBackColor = true;
+            this.btnEjercicio3.Click += new System.EventHandler(this.btnEjercicio3_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1477, 946);
+            this.ClientSize = new System.Drawing.Size(591, 184);
+            this.Controls.Add(this.btnEjercicio3);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -42,6 +54,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnEjercicio3;
     }
 }
 
