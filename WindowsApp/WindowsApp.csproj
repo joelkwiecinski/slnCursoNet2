@@ -46,11 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entidades\ClienteEmpresa.cs" />
     <Compile Include="Entidades\ClienteIndividuo.cs" />
+    <Compile Include="Entidades\DocumentoComercial.cs" />
+    <Compile Include="Entidades\Empresa.cs" />
     <Compile Include="Entidades\Factura.cs" />
+    <Compile Include="Entidades\Persona.cs" />
     <Compile Include="Entidades\Producto.cs" />
-    <Compile Include="Entidades\Proveedor.cs" />
     <Compile Include="Entidades\Remito.cs" />
     <Compile Include="Entidades\Vendedor.cs" />
     <Compile Include="Form1.cs">
@@ -85,12 +86,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Ejercicio3\Ejercicio3.csproj">
-      <Project>{734c8580-404b-4ed9-be49-ff988c379480}</Project>
-      <Name>Ejercicio3</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
